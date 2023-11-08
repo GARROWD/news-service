@@ -17,7 +17,6 @@ import ru.garrowd.newsservice.services.validators.ValidationService;
 @RequiredArgsConstructor
 @Slf4j
 public class Controller {
-    // TODO Сначала у меня было несколько контроллеров (каждый под свою роль), но, не знаю зачем, я их обьеденил
     private final ValidationService validationService;
     private final NewsService newsService;
     private final ModelMapper modelMapper;
